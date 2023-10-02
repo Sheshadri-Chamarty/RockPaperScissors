@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>
+			✊-🤚-✌️
+		</title>
+		<link rel="stylesheet" href="rps.css">
+	</head>
+	<body>
+		<h1>
+			Rock Paper Scissors
+		</h4>
+		<button onclick="
+			cal('✊');
+		" class="moves">
+			✊
+		</button>
+		<button onclick="
+			cal('🤚');
+		" class="moves">
+			🤚
+		</button>
+		<button onclick="
+			cal('✌️');
+		" class="moves">
+			✌️
+		</button>
+		<p id="result">
+
+		</p>
+		<p id="dline">
+			you <span id="hmove"></span> <span id="cmove"></span> computer
+		</p>
+		<p id="z">
+			wins : <span id="wins">0</span>
+		</p>
+		<p>
+			losses : <span id="losses">0</span>
+		</p>
+		<p>
+			ties : <span id="ties">0</span>
+		</p>
+		<button onclick="reset()">
+			Reset Score
+		</button>
+		<script src="rps.js"></script>
+	</body>
+</html>
